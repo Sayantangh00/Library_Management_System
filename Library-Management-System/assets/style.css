@@ -1,0 +1,107 @@
+/* ----------- GLOBAL ----------- */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Arial, sans-serif;
+    background: linear-gradient(135deg, #4b79a1, #283e51);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+/* ----------- CONTAINER CARD ----------- */
+.container {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    padding: 30px 40px;
+    width: 420px;
+    border-radius: 18px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    color: #fff;
+}
+
+/* ----------- HEADINGS ----------- */
+h1, h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* ----------- FORM LABELS ----------- */
+label {
+    font-size: 14px;
+    margin-top: 12px;
+    display: block;
+}
+
+/* ----------- INPUT FIELDS ----------- */
+input[type=text], input[type=email], input[type=password], input[type=number] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+}
+
+input::placeholder {
+    color: #eee;
+}
+
+/* ----------- BUTTON ----------- */
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #0093e9, #80d0c7);
+}
+
+/* ----------- LINKS ----------- */
+a {
+    color: #00eaff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ----------- TABLE ----------- */
+table {
+    width: 100%;
+    margin-top: 18px;
+    border-collapse: collapse;
+    color: #fff;
+}
+
+table th, table td {
+    padding: 10px;
+    background: rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+table th {
+    font-weight: 600;
+}
+
+.error {
+    color: #ff9c9c;
+    font-weight: 600;
+    text-align: center;
+}
